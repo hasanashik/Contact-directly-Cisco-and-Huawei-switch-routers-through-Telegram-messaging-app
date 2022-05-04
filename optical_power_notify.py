@@ -227,8 +227,8 @@ def main() -> None:
                 optical_power = give_me_optical_power(msg_split[0],msg_split[1])
                 bot.reply_to(message, optical_power)
             else:
-                #print('You have entered wrong SCR/ ip port format.')
-                bot.reply_to(message, "You have entered wrong SCR/ ip port format.")
+                #print('You have entered wrong  ip/port format.')
+                bot.reply_to(message, "You have entered wrong  ip/port format.")
         else:
             bot.reply_to(message, "Unauthorised user. Your info will be reported to Admin.")
 
